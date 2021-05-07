@@ -8,8 +8,8 @@ window.onload = function() {
     let question = document.getElementById("question");
 
     eightball.addEventListener("click", function() {
-      if(question.value.length < 1) {
-          alert('Enter a question!');
+      if(question.value.length <= 1 ) {
+          alert('Enter a question!'); 
       }else{
           eight.innerText = "";
           let num = Math.floor(Math.random() * Math.floor(answers.length));
