@@ -1,6 +1,6 @@
-# mfw-bootstrap-template
+# Magic-8-ball
 
-**A friendly [template](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template) dedicated to [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) functionality. This is for class purposes.**
+**A simple beginners Javascript project**
 
 
 ## Requirements
