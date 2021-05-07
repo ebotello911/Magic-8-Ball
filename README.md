@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # Magic-8-Ball
+=======
+# Magic-8-ball
+>>>>>>> 4a38cb4114e0c43ba4261954850da796d440e31a
 
-**A friendly [template](https://getbootstrap.com/docs/4.5/getting-started/introduction/#starter-template) dedicated to [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) functionality. This is for class purposes.**
+**A simple beginners Javascript project**
 
 
 ## Requirements
