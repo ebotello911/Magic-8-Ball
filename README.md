@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-# Magic-8-Ball
-=======
+
 # Magic-8-ball
->>>>>>> 4a38cb4114e0c43ba4261954850da796d440e31a
+
 
 **A simple beginners Javascript project**
-
+*Final for Bitwise*
 
 ## Requirements
 
