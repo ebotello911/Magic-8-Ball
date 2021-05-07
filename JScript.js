@@ -1,5 +1,5 @@
 
-let answers = ["Nope","Yes","No Way Jose","Get A Life","Really Bad", "Gonna Go Bald","Don't ask me again", "Ask your Momma"];
+let answers = ["Nope","Yes","No Way Jose","Get A Life","Really Bad", "Gonna Go Bald","Don't ask me again", "Ask your Momma","Go Back to School","Hello Jello","Javascript"];
 
 window.onload = function() {
     let eight = document.getElementById("eight");
