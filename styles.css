@@ -2,7 +2,7 @@ h1 { font-weight: 100; font-size: 2.5em;}
    
 body, html{ 
     z-index: -1;
-    background: url(/IMG/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.jpg) no-repeat center center fixed; 
+    background: url(./IMG/bradley-jasper-ybanez-a1xlQq3HoJ0-unsplash.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
