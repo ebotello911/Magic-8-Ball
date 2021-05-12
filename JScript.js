@@ -7,10 +7,15 @@ window.onload = function() {
     let eightball = document.getElementById("eight-ball");
     let question = document.getElementById("question");
 
+    // function isNumeric(question){
+    //     if (tyepof question ) {
+            
+    //     }
+    // }
     eightball.addEventListener("click", function() {
-      if(question.value.length <= 1 ) {
+    if(question.value.length <= 1 ) {
           alert('Enter a question!'); 
-      }else{
+    }else{
           eight.innerText = "";
           let num = Math.floor(Math.random() * Math.floor(answers.length));
           answer.innerText = answers[num];

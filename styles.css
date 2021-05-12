@@ -12,13 +12,13 @@ body, html{
   }
 
 #content { 
- z-index: -1 ;
+ /* z-index: -1 ; */
  /* background-color: aliceblue; */
  width: 600px; 
  margin: 0 auto; 
  margin-top: 10%; 
- border-radius: 20%;
- border: 1px solid black;       
+ /* border-radius: 20%; */
+ /* border: 1px solid black;        */
  text-align: center; 
  font-family: 'Helvetica Neue', arial; 
  font-weight: 100;
@@ -30,7 +30,7 @@ h1, p {
 }
 div.eight-ball {
   background-color: black;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
   width: 400px;
   height: 400px;
@@ -41,21 +41,21 @@ div.eight-ball {
 
 div.answer {
   background-color: #333;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
-  width: 50%;
+  width: 53%;
   height: 50%;
   margin: 25% auto;
 }
 
 p#eight {
   font-size: 5em;
-  margin: 20% auto;
+  margin: 25% auto;
   color: white;
 }
 
 p#answer {
-  padding: 23px;
+  padding: 20px;
   color: rgb(236, 1, 1);
   letter-spacing: 2px;
   font-size:20px;
