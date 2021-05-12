@@ -1,5 +1,5 @@
 
-let answers = ["Nope","Yes","No Way Jose","Get A Life","Really Bad", "Gonna Go Bald","Don't ask me again", "Ask your Momma","Go Back to School","Hello Jello","Javascript"];
+let answers = ["Nope","Yes","No Way Jose","Get A Life","Really Bad", "Your Gonna Go Bald","Don't ask me again", "Ask your Momma","Go Back to School","Hello Jello","Javascript",'Thats what she said',];
 
 window.onload = function() {
     let eight = document.getElementById("eight");
@@ -7,18 +7,18 @@ window.onload = function() {
     let eightball = document.getElementById("eight-ball");
     let question = document.getElementById("question");
 
-    // function isNumeric(question){
-    //     if (tyepof question ) {
-            
-    //     }
-    // }
+    
     eightball.addEventListener("click", function() {
-    if(question.value.length <= 1 ) {
-          alert('Enter a question!'); 
+        const length = question.value.length;
+       // console.log(length);
+       const isNum = !isNaN(parseInt(question.value))
+        if(length <= 1 || isNum) {
+            alert('Enter a Question!'); 
     }else{
           eight.innerText = "";
           let num = Math.floor(Math.random() * Math.floor(answers.length));
           answer.innerText = answers[num];
+          //console.log(num);
       } 
     });
 };
