@@ -25,15 +25,15 @@ body, html{
 }
 
 h1, p {
-  color: white;
+  color: hsl(0, 94%, 52%);
   font-family: 'Goblin One', cursive;
 }
 div.eight-ball {
   background-color: black;
   border: 2px solid white;
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 30px;
@@ -55,10 +55,10 @@ p#eight {
 }
 
 p#answer {
-  padding: 20px;
+  padding: 15px;
   color: rgb(236, 1, 1);
   letter-spacing: 2px;
-  font-size:20px;
+  font-size: x-large;
 }
 
 #question {
