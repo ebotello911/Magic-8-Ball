@@ -21,13 +21,13 @@ body, html{
  font-weight: 100;
 }
 
- div.eight-ball {
+ /* div.eight-ball {
   width: 100px;
   height: 100px;
   position: relative;
   animation-name: example;
   animation-duration: 4s;
-}
+} */
 
 h1, p {
   color: hsl(0, 94%, 52%);
@@ -77,10 +77,10 @@ p#answer {
   font-size: 23px;
 }
 
-@keyframes example {
+/* @keyframes example {
   0%   {background-color:red; left:100px; right: 500px;}
   25%  {background-color:rgb(247, 18, 48); left:50px; right: 100px;}
   50%  {background-color:rgb(235, 23, 23); left:50px;right: 200px;}
   75%  {background-color:rgb(241, 18, 37); left:0px;}
   100% {background-color:red; left:100px; right: 500px;}
-}
+} */
